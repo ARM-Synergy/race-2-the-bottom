@@ -2,6 +2,8 @@
 
 # Race To the Bottom
 
+[![DOI](https://zenodo.org/badge/1244930725.svg)](https://doi.org/10.5281/zenodo.20934919)
+
 ![arms-race](/notebooks/images/race2-the-bottom-photo.jpg)
 
 ## [2026 ARM Summer School](https://arm-development.github.io/arm-summer-school-2026/) Project 
