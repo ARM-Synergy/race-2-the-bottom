@@ -1,0 +1,45 @@
+# See docs at: https://mystmd.org/guide/frontmatter
+version: 1
+project:
+  title: Atmospheric Radiation Measurement Synergy - Radar, Aerosol, Cloud and Energy
+  description: 2026 ARM Big Open Data Summer School Project
+  github: https://github.com/ARM-Synergy/arms-race/
+  # keywords: []
+  authors:
+    - name: Christian Nairy
+      orcid: 0009-0004-3663-9719
+    - name: Katie Chan
+      orcid: 0009-0001-8806-6375
+    - name: Amanda Cresanti
+      orcid: 0000-0001-7897-5922
+    - name: Aaron Dorough
+    - name: Lin Lin
+      orcid: 0000-0001-7873-7502
+    - name: Taylor Rinke
+      orcid: 0009-0005-4697-0824
+    - name: Vera Zhang
+      orcid: 0000-0002-5316-0767
+    - name: Suryadev Singh
+      orcid: 0000-0002-1084-7390
+    - name: Andrew Dzambo
+      orcid: 0000-0003-3789-8435
+    - name: Joe O'Brien
+      orcid: 0000-0003-4655-6912
+      github: jrobrien91
+  # To autogenerate a Table of Contents, run "myst init --write-toc"
+  toc:
+    - file: README.md
+    - title: Project Development
+      children:
+        - file: notebooks/Cresanti_nsaceil.ipynb
+        - file: notebooks/data_exploration.ipynb
+        - file: notebooks/downloand_and_plot_AERI.ipynb
+        - file: notebooks/Aaron_Dorough.ipynb
+        - file: notebooks/radiosonde.ipynb
+        - file: notebooks/feature_and_label_vector_creation.ipynb
+        - file: notebooks/ARMS_RACE_RF-highres_Train-Val_Nairy.ipynb
+site:
+  options:
+    logo: notebooks/images/arm_logo.png
+    footer_logos:
+        ARM: notebooks/images/arm_logo.png
