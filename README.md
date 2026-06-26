@@ -1,3 +1,5 @@
+<img src="/notebooks/images/arm_logo.png" width=500 alt="ARM Logo"></img>
+
 # Race To the Bottom
 
 ![arms-race](/notebooks/images/race2-the-bottom-photo.jpg)
